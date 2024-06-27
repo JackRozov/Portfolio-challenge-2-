@@ -174,7 +174,9 @@ html {
   
   }
   
-
+li{
+  margin-right: 100px;
+}
 
   #socials {
     display: flex;
@@ -182,7 +184,7 @@ html {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 10vw;
+    margin: 50 90vw;
     background-color: var(--color-1);
     border: 1rem ridge  rgb(34, 84, 185);
     border-left: 1rem ridge  rgb(34, 84, 185);;
@@ -190,15 +192,20 @@ html {
     color: green;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5rem !important;
+    font-size: 4rem !important;
     font-weight: 600 !important;
     letter-spacing: 2px;
     text-shadow: 1px 1px 3px black;
     list-style-type: none
+    
   }
+  
   .socials{
-    position: relative;
-    top: 900px;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    word-spacing: 5px;
+    margin-right: 100px;
   }
   #about-me h2 {
     flex: 100%;
