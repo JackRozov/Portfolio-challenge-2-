@@ -184,7 +184,7 @@ li{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    margin: 50 90vw;
+    margin: 0 10vw;
     background-color: var(--color-1);
     border: 1rem ridge  rgb(34, 84, 185);
     border-left: 1rem ridge  rgb(34, 84, 185);;
@@ -192,7 +192,7 @@ li{
     color: green;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 4rem !important;
+    font-size: 1.4rem !important;
     font-weight: 600 !important;
     letter-spacing: 2px;
     text-shadow: 1px 1px 3px black;
