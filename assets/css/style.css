@@ -1,0 +1,320 @@
+/* Normalize*/
+
+
+html {
+    line-height: 1.15; /* 1 */
+}
+
+/* style*/ 
+:root {
+    --color-1: rgba(31, 31, 31, 0.9);
+    --color-2:  rgba(107, 107, 107, 0.9);
+    --color-3: rgba(255, 255, 255, 0.7);
+    --color-primary: #191d2b;
+    --color-secondary: #27AE60;
+    --color-white: #FFFFFF;
+    --color-green: #27ab5e;
+    --color-blue: rgb(34, 84, 185);
+    color-scheme: dark;
+  
+  }
+  
+  html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Verdana, serif;
+  
+  
+  }
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+  
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .header { 
+    height: 60px;
+    width: 100%;
+    z-index: 300;
+    position: fixed;
+    background: var(--color-1);
+    letter-spacing: 4px;
+  
+    line-height: 1.5;
+  
+  
+  }
+  
+  .footer {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    border-top: 1.0rem ridge rgb(34, 84, 185);
+  
+  }
+  
+  .footer p {
+    text-align: center;
+  }
+  
+  .identity {
+    float: left;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .identity h1 {
+    font-size: 1.5rem;
+    font-family: 'Cardo', serif;
+    font-weight: 1000;
+    margin: .3rem 0 .3rem .3rem;
+    padding: .5rem;
+  
+    display: inline-block;
+  }
+  
+  
+  
+ 
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navigation ul, li, .sidenav ul {
+    margin: 0; 
+    padding: 0;
+  }
+  
+  
+  .navigation li, .sidenav li {
+    display: inline-block;
+    margin: 1rem 1rem 1rem 1rem;
+  
+  }
+  
+  
+  
+  .box-hover {
+    padding: .3rem;
+    transition: .1s;
+    border-radius: 0.2rem;
+  }
+  
+  .box-hover:hover {
+    background-color: rgba(240, 192, 192, 0.9);
+  
+  }
+  
+  
+  #intro {
+    box-sizing: inherit;
+    position: relative;
+  
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+  
+    resize: horizontal;
+    max-width: 100%;
+    height: calc(100vh - 16px);
+    border-bottom: 1.2rem ridge rgb(34, 84, 185);
+  
+  }
+  
+
+  
+  .subheading {
+  
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    text-shadow: 1px 1px 1px black;
+  
+  }
+  .textbox {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    max-width: 40%; 
+    padding: 5rem 2.5rem;
+    text-align: center;
+    font-family: 'Cardo', serif;
+  
+  } 
+  
+  .textbox h1 {
+    font-family: 'Cardo', serif;
+  
+  }
+  
+  
+
+
+  
+  #about-me {
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10vw;
+    background-color: var(--color-1);
+    border: 1rem ridge  rgb(34, 84, 185);
+    border-left: 1rem ridge  rgb(34, 84, 185);;
+    border-right: 1rem ridge  rgb(34, 84, 185);;
+  
+  }
+  
+
+
+  #socials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 10vw;
+    background-color: var(--color-1);
+    border: 1rem ridge  rgb(34, 84, 185);
+    border-left: 1rem ridge  rgb(34, 84, 185);;
+    border-right: 1rem ridge  rgb(34, 84, 185);;
+    color: green;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px black;
+    list-style-type: none
+  }
+  .socials{
+    position: relative;
+    top: 1150px;
+  }
+  #about-me h2 {
+    flex: 100%;
+  }
+  
+
+  
+ 
+  h1, h2, h3, h4 {
+    color:white;
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-size: clamp(2.2rem, min(6vw, 9vh), 5rem); 
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px black;
+  }
+  
+
+
+  h2 {
+    font-size: clamp(2rem, 4vw, 4rem); 
+  
+  }
+  
+  h3 {
+    font-size: 1.7rem;
+    letter-spacing: normal;
+    text-align: left; 
+    color: rgb(0, 128, 191);
+    text-shadow: 2px 2px 2px black;
+  
+  
+  }
+  
+  h4 {
+    font-size: 1.3rem;
+    letter-spacing: normal;
+    text-align: left; 
+    font-weight: 500;
+    text-shadow: 2px 2px 2px black;
+  
+  
+  }
+  
+  .textbox p {
+    color:rgba(255, 255, 255, 0.85);
+    font-size:  1.3rem;
+    text-align: center;
+    line-height: normal;
+    font-weight: normal;
+    flex: 0;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+    text-align: justify;
+    font-weight: 400;
+  }
+  
+  .text-content {
+  
+    width: clamp(50%, 80%, 800px);
+    align-self: center;
+  }
+  
+  .width-80 {
+    width: 80%;
+  }
+  
+  #about-me .text-content p {
+    font-size: clamp(1rem, min(3vw, 4.5vh), 1.3rem); 
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  
+  
+  
+  
+   .text-content ol {
+     font-size: clamp(1rem, min(3vw, 4.5vh), 1.3rem); 
+     color: var(--color-green);
+     line-height: 2;
+     text-wrap: wrap;
+   }
+  
+
+ 
+ 
+  .photo-container {
+    flex: 1 4 auto;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+
+  
+  #navButton {
+    font-size:1.75rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    display: none;
+    
+  }
+  
+  .image-container {
+    
+      flex: 1 2 400px;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  
+  
+  
